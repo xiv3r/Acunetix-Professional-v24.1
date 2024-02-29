@@ -3,8 +3,12 @@
 ## Setup:
 
 1) Download Acunetix Professional
-
-2) Before installing the tool, add to your hosts file (usually /etc/hosts) at the end:
+```
+git clone https://github.com/xiv3r/Acunetix-Professional-v24.1.git
+cd Acunetix-Professional-v24.1
+wget
+```
+3) Before installing the tool, add to your hosts file (usually /etc/hosts) at the end:
   ```
 127.0.0.1  erp.acunetix.com
 127.0.0.1  erp.acunetix.com.
