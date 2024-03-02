@@ -15,7 +15,7 @@
 ```
 git clone https://github.com/xiv3r/Acunetix-Professional-v24.1.git
 cd Acunetix-Professional-v24.1
-wget
+wget https://github.com/xiv3r/Acunetix-Professional-v24.1/releases/download/Acunetix/acunetix_24.1.240111130_x64.sh
 ```
 3) Before installing the tool, add to your hosts file (usually /etc/hosts) at the end:
   ```
@@ -29,7 +29,7 @@ wget
 2607:f8b0:402a:80a::200e  telemetry.invicti.com
 2607:f8b0:402a:80a::200e  telemetry.invicti.com.
   ```
-3) Now install the tools with sudo : `sudo bash acunetix_xxxxx.sh`
+3) Now install the tools with sudo : `sudo bash acunetix_24.1.240111130_x64.sh`
 
 4) Once installed let's stop its service with: `sudo systemctl stop acunetix`
 
